@@ -1,0 +1,13 @@
+{
+  "name": "trpo-pr02-student",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Практическая работа №2: HTML, CSS и SCSS",
+  "scripts": {
+    "build:css": "sass scss/styles.scss css/styles.css",
+    "watch:css": "sass --watch scss/styles.scss:css/styles.css"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}

@@ -1,0 +1,9 @@
+@use "variables" as *;
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: $background; color: $text; font: 16px/1.5 Arial, sans-serif; }
+img { display: block; max-width: 100%; }
+a { color: $accent; }
+a:focus-visible { outline: 3px solid rgba($accent, 0.4); outline-offset: 3px; }
+h1, h2, h3, p { margin-top: 0; }
+h1, h2, h3 { line-height: 1.2; }
